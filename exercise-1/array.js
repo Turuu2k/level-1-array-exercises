@@ -9,38 +9,74 @@
 // 1. write function ==> function will take array as input
 // 2. sort the numbers inside the array and return sorted array
 
-function sortedArray(array) {
-  return array.sort(function (a, b) {
-    return b - a;
-  });
-}
+// function sortedArray(array) {
+//   return array.sort(function (a, b) {
+//     return b - a;
+//   });
+// }
 
-console.log(sortedArray([5, 7, 10, -10, 56]));
+// console.log(sortedArray([5, 7, 10, -10, 56]));
 // ==> [56, 10, 7,5,-10]
+
+// Exercise 2
+
+// Write a JavaScript function to find the largest of five numbers of array.
+// Sample numbers : -5, -2, -6, 0, -1
+// Output : 0
+
+// const numbers = [-5, -2, -6, 0, 12, 13, -1];
+// const findLargestNumber = (numbers) => {
+//   let largestNumber = 0;
+//   for (let i = 0; i < numbers.length; i++) {
+//     if (largestNumber < numbers[i]) {
+//         largestNumber = numbers[i];
+//     }
+//   }
+//   return largestNumber;
+// };
+// console.log(findLargestNumber(numbers));
+
+// const numbers = [-5, -2, -6, 0, 1, -1];
+// let largestNumber = 0;
+// function findedLargestNumber(numbers){
+//     for (let i = 0; i < numbers.length; i++){
+//         if (largestNumber < numbers[i]){
+//             largestNumber = numbers[i];
+//         }
+//     }
+//     return largestNumber
+// };
+// console.log(findedLargestNumber(numbers));
+
+// Exercise 3
+
+// Function that will return your string in Alphabetical order
+
+// Example:
+// > console.log(AlphabeticalOrder('hello'));
+// > "ehllo"
+
+
+// Exercise 4
+
+// Create a function that will display the smallest value in the array.
+
+// Example:
+// > console.log(findSmallest([30, 45, 60, 7]));
+// > 1
+
+// let smallestNumber = 0;
+// function findedSmallestNumber(array){
+//     for (let i = array.length; i > 0; i--){
+//         if (smallestNumber < array[i]){
+//             smallestNumber = array[i];
+//         }
+//     }
+//     return smallestNumber
+// };
+// console.log(findedSmallestNumber([30, 45, 60, 7]));
+
 /*
-
-Exercise 2
-
-Write a JavaScript function to find the largest of five numbers of array.  
-Sample numbers : -5, -2, -6, 0, -1 
-Output : 0 
-
-Exercise 3
-
-Function that will return your string in Alphabetical order
-
-Example:
-> console.log(AlphabeticalOrder('hello'));
-> "ehllo"
-
-Exercise 4
-
-Create a function that will display the smallest value in the array.
-
-Example:
-> console.log(findSmallest([30, 45, 60, 7]));
-> 1
-
 Exercise 5
 Remove all Odd number(s) in an array and return a new array that contains Even numbers only
 
@@ -97,5 +133,3 @@ Example:
 > 1
 
 */
-
-console.log("here");
